@@ -9,7 +9,7 @@ public class ValidateISBNTest {
 
     // checkAValid10DigitISBN
     @Test
-    public void checkAValidI10DigitSBN() {
+    public void checkAValidI10DigitISBN() {
         // Arrange
         ValidateISBN validateISBN = new ValidateISBN();
 
@@ -62,7 +62,7 @@ public class ValidateISBNTest {
     }
 
 
-    // checkA13DigitInValidISBN
+    // checkA13DigitInvalidISBN
     @Test
     public void checkA13DigitInValidISBN() {
         //Arrange
@@ -76,7 +76,7 @@ public class ValidateISBNTest {
     }
 
 
-    // nonNumericISBNIsNotAllowed:  "helloworld"
+    // non-NumericISBNIsNotAllowed:  "helloworld"
     @Test
     public void nonNumericISBNIsNotAllowed() {
         // Arrange
